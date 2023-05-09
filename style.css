@@ -41,15 +41,21 @@ span{
     color: #ffffff;
 }
 .email{
-    position: relative;
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     margin: 10px;
+    justify-content: space-between;
 }
+.email>h3{
+    margin-left: 10px;
+}
+
 .email-right{
-    position: absolute;
+    /* position: absolute; */
     right: 17px;
     margin-right:20px;
+    /* justify-content: flex-end; */
 }
 
 .email-right>input{
@@ -73,8 +79,10 @@ span{
 .product{
     margin-top: 40px;
     display: flex;
-    flex-wrap: nowrap;
-    padding: 40px;
+    flex-flow: row wrap;
+    padding: 20px;
+
+    /* justify-content: center; */
     
 }
 .product-detail{
@@ -84,18 +92,27 @@ span{
     background: #03030a;
     border-radius: 10px;
     margin: 0 20px;
+    margin-bottom: 20px;
 }
 .bottom-center{
     position: absolute;
     bottom: 8px;
     left: 10px;
     color: white;
+    margin: 0 auto;
+
+}
+
+.bottom-center>h3{
+    margin: 10px 0;
 }
 
 img{
     width:100%;
     float:left; 
     margin:0;
+    border-radius: 5px;
+
 }
 .rss.opacity { filter: opacity(40%); }
 
