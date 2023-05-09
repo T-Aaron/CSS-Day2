@@ -74,6 +74,7 @@ span{
     margin-top: 40px;
     display: flex;
     flex-wrap: nowrap;
+    padding: 40px;
     
 }
 .product-detail{
@@ -82,7 +83,7 @@ span{
     margin: 0 auto;
     background: #03030a;
     border-radius: 10px;
-
+    margin: 0 20px;
 }
 .bottom-center{
     position: absolute;
